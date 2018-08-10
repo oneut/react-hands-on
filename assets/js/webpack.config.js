@@ -23,6 +23,7 @@ module.exports = function (env, options) {
     module: {
       rules: [
         {
+          enforce: 'pre',
           test: /\.js$/,
           exclude: /node_modules/,
           use: {
