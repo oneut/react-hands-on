@@ -1,7 +1,7 @@
 {
   "presets": [
-    "es2015",
-    "stage-1",
+    ["env", { "modules": false }],
+    "stage-0",
     "react"
   ],
   "ignore": "test.js",
