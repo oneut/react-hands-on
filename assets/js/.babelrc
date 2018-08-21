@@ -5,11 +5,6 @@
     "react"
   ],
   "ignore": "test.js",
-  "env": {
-    "development": {
-      "sourceMaps": "inline"
-    }
-  },
   "plugins": [
     "transform-async-to-generator",
     "transform-decorators-legacy",

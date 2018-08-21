@@ -4,7 +4,7 @@ RUN apk add --no-cache git mercurial
 
 RUN apk --no-cache add bash
 RUN apk --no-cache add openssl
-RUN apk --no-cache add nodejs
+RUN apk --no-cache add nodejs nodejs-npm
 
 RUN npm install -g yarn
 RUN npm install -g http-server
