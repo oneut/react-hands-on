@@ -1,7 +1,5 @@
-import React from 'react';
-import { render } from 'react-dom';
+import React from "react";
+import { render } from "react-dom";
+import GitHubIndexContainer from "./containers/GitHubIndexContainer";
 
-render(
-  <div>hello, world</div>,
-  document.getElementById('github')
-);
+render(<GitHubIndexContainer />, document.getElementById("github"));
